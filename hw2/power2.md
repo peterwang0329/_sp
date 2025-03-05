@@ -1,7 +1,10 @@
-##### ./c4 -s test/power2.c
-1: #include <stdio.h>
-2: int power2(int n) {
-3:   if (n == 0) return 1;
+# Power2 Function Analysis
+
+## ./c4 -s power2.c
+```c
+#include <stdio.h>
+int power2(int n) {
+    if (n == 0) return 1;
     ENT  0
     LLA  2
     LI
@@ -11,7 +14,8 @@
     BZ   0
     IMM  1
     LEV
-4:   return 2 * power2(n - 1);
+
+    return 2 * power2(n - 1);
     IMM  2
     PSH
     LLA  2
@@ -24,11 +28,10 @@
     ADJ  1
     MUL
     LEV
-5: }
-    LEV
-6:
-7: int main() {
-8:   printf("%d\n", power2(5));
+}
+
+int main() {
+    printf("%d\n", power2(5));
     ENT  0
     IMM  -1791184912
     PSH
@@ -39,8 +42,11 @@
     PSH
     PRTF
     ADJ  2
----
-##### ./c4 -d test/power2.c
+}
+```
+
+## ./c4 -d power2.c
+```assembly
 1> ENT  0
 2> IMM  113483792
 3> PSH
@@ -159,4 +165,5 @@
 115> LEV
 116> PSH
 117> EXIT
+
 exit(3) cycle = 117
