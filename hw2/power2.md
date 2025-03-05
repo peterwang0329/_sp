@@ -1,5 +1,3 @@
-# Power2 Function Analysis
-
 ## ./c4 -s power2.c
 ```c
 #include <stdio.h>
