@@ -1,3 +1,4 @@
+```assembly
 ++ gcc -w c4_asmpower2.c -o c4_asmpower2
 c4_asmpower2.c: In function 'main':
 c4_asmpower2.c:97:3: error: 'n' undeclared (first use in this function)
@@ -124,3 +125,4 @@ c4_asmpower2.c:97:3: note: each undeclared identifier is reported only once for 
 116> PSH
 117> EXIT
 exit(3) cycle = 117
+```
