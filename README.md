@@ -34,6 +34,7 @@ void DOWHILE() {
 ```
 - [https://github.com/peterwang0329/_sp/blob/main/hw1/compiler.c](https://github.com/peterwang0329/_sp/blob/main/hw1/compiler.c)
 ## hw2
+原創，跟隨老師進度完成
 - [power2組合語言指令](https://github.com/peterwang0329/_sp/blob/main/hw2/power2.md)
 - [c4_asmpower2.c](https://github.com/peterwang0329/_sp/blob/main/hw2/c4_asmpower2.c)
 - [c4_asmpower2.c執行結果](https://github.com/peterwang0329/_sp/blob/main/hw2/asmpower2.md)
@@ -64,7 +65,8 @@ mult3:
 ```
 - [https://github.com/peterwang0329/_sp/tree/main/hw4/mult.s](https://github.com/peterwang0329/_sp/blob/main/hw4/mult.s)
 ## hw5
-C語言函式採用以前完成的鏈結串鏈程式
+C語言函式採用以前完成的鏈結串鏈程式<br>
+詳細請參考[Readme](https://github.com/peterwang0329/_sp/tree/main/hw5/Readme.md)
 - [https://github.com/peterwang0329/_sp/tree/main/hw5](https://github.com/peterwang0329/_sp/tree/main/hw5)
 ## mid(內含詳細說明，部分由AI完成)
 - [https://github.com/peterwang0329/_sp/tree/main/mid/Readme.md](https://github.com/peterwang0329/_sp/tree/main/mid/Readme.md)
