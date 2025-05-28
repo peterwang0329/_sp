@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import logging
 
-# 設置日誌格式
+# 設置日誌格式，避免重複輸出日誌(cmd)訊息
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
